@@ -23,7 +23,7 @@ This project is structured around the **Medallion Architecture**, dividing the w
 
 
 
-<img width="500" height="500" alt="dataArchitecture" src="https://github.com/user-attachments/assets/d1df6ef9-2b71-46b3-9beb-5bcaa21fb25c" />
+<img width="900" height="900" alt="dataArchitecture" src="https://github.com/user-attachments/assets/d1df6ef9-2b71-46b3-9beb-5bcaa21fb25c" />
 
 
 ```
