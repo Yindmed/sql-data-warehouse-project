@@ -1,4 +1,5 @@
-# Data Catalog - Gold Layer
+# Data Catalog - Gold Layer <img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/a7e70d05-fdf4-4928-9bca-02e1e2c41fd8" />
+
 
 ## Overview
 The Gold Layer represents the final business-ready data model, designed for analysis and reporting.
