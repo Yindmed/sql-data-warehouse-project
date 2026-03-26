@@ -66,10 +66,6 @@ sql-data-warehouse-project/
 │
 ├── docs/                        # Architecture and design documentation
 │   ├── data_architecture.drawio     # High-level data architecture diagram
-│   ├── data_catalog.md              # Field descriptions and metadata
-│   ├── data_flow.drawio             # End-to-end data flow diagram
-│   ├── data_models.drawio           # Star schema data models
-│   ├── etl.drawio                   # ETL design and transformation logic
 │   └── naming-conventions.md        # Naming guidelines for tables, columns & files
 │
 ├── scripts/                     # SQL scripts organized by layer
