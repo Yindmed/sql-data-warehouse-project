@@ -1,11 +1,14 @@
 # 🏗️ SQL Data Warehouse Project
 
+> Una solución completa de Data Warehouse construida con SQL Server, siguiendo la Arquitectura Medallion (Bronze → Silver → Gold). Este proyecto cubre el diseño de pipelines ETL, modelado de datos con esquema estrella y analítica basada en SQL — desarrollado desde cero como proyecto personal de portfolio.
+
 > An end-to-end data warehousing solution built with SQL Server, following the **Medallion Architecture** (Bronze → Silver → Gold). This project covers ETL pipeline design, data modeling with star schema, and SQL-based analytics — built from the ground up as a personal portfolio project.
 
 ---
 
 ## 📌 Project Description
 
+> ES: Este proyecto demuestra cómo diseñar e implementar un Data Warehouse moderno desde cero, aplicando buenas prácticas de la industria en ingeniería de datos. Los datos en bruto provenientes de sistemas ERP y CRM son ingeridos, limpiados y modelados en una capa estructurada lista para análisis.
 This project demonstrates how to design and implement a modern **Data Warehouse from scratch**, applying industry best practices in data engineering. Raw data from ERP and CRM systems is ingested, cleaned, and modeled into a structured, analytics-ready layer.
 
 **What this project covers:**
@@ -19,12 +22,34 @@ This project demonstrates how to design and implement a modern **Data Warehouse 
 
 ## 🏛️ Data Architecture
 
-This project is structured around the **Medallion Architecture**, dividing the warehouse into three progressive layers:
+ES: Este proyecto está estructurado siguiendo la Arquitectura Medallion, dividiendo el Data Warehouse en tres capas progresivas:
+
+EN: This project is structured around the **Medallion Architecture**, dividing the warehouse into three progressive layers:
 
 
 
 <img width="900" height="900" alt="dataArchitecture" src="https://github.com/user-attachments/assets/d1df6ef9-2b71-46b3-9beb-5bcaa21fb25c" />
-
+````
+[ Sistemas Fuente ]
+   Archivos CSV (ERP + CRM)
+         │
+         ▼
+┌─────────────────────┐
+│   🥉 CAPA BRONZE    │  Datos en bruto ingeridos tal cual — sin transformaciones
+└─────────────────────┘
+         │
+         ▼
+┌─────────────────────┐
+│   🥈 CAPA SILVER    │  Datos limpios, estandarizados y normalizados
+└─────────────────────┘
+         │
+         ▼
+┌─────────────────────┐
+│   🥇 CAPA GOLD      │  Esquema estrella listo para análisis de negocio
+└─────────────────────┘
+         │
+         ▼
+[ Informes y Dashboards ]
 
 ```
 [ Source Systems ]
@@ -57,7 +82,7 @@ This project is structured around the **Medallion Architecture**, dividing the w
 
 ---
 
-## 🗂️ Repository Structure
+## 🗂️Estuctura / Repository Structure
 
 ```
 sql-data-warehouse-project/
@@ -83,7 +108,8 @@ sql-data-warehouse-project/
 
 ## 🛠️ Tools & Requirements
 
-All tools used in this project are freely available:
+ES: Todas las herramientas utilizadas en este proyecto son gratuitas:
+EN: All tools used in this project are freely available:
 
 | Tool | Purpose | Link |
 |------|---------|------|
@@ -94,13 +120,12 @@ All tools used in this project are freely available:
 
 ---
 
-## 🎯 What This Project Demonstrates
+## 🎯 What This Project Demonstrates / ¿Que demuestra este proyecto?
 
-- End-to-end data pipeline design  
-- Data cleaning and transformation  
-- Dimensional modeling  
-- Writing analytical SQL queries
-
+- Diseño completo de pipelines de datos | End-to-end data pipeline design  
+- Limpieza y transformación de datos| Data cleaning and transformation
+- Modelado dimensional | Dimensional modeling
+- Escritura de consultas analíticas en SQL | Writing analytical SQL queries
 ---
 
 ## 📄 License
