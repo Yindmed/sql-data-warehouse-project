@@ -29,7 +29,10 @@ EN: This project is structured around the **Medallion Architecture**, dividing t
 
 
 
-<img width="900" height="900" alt="dataArchitecture" src="https://github.com/user-attachments/assets/d1df6ef9-2b71-46b3-9beb-5bcaa21fb25c" />
+<img width="1000" height="600" alt="dataArchitecture" src="https://github.com/user-attachments/assets/d1df6ef9-2b71-46b3-9beb-5bcaa21fb25c" />
+
+---
+
 ````
 [ Sistemas Fuente ]
    Archivos CSV (ERP + CRM)
@@ -73,7 +76,7 @@ EN: This project is structured around the **Medallion Architecture**, dividing t
          │
          ▼
 [ Reports & Dashboards ]
-```
+
 
 | Layer | Purpose | Key Techniques |
 |-------|---------|----------------|
@@ -83,9 +86,10 @@ EN: This project is structured around the **Medallion Architecture**, dividing t
 
 ---
 
+````
 ## 🗂️Estuctura / Repository Structure
 
-```
+````
 sql-data-warehouse-project/
 │
 ├── datasets/                    # Raw source datasets (ERP and CRM CSV files)
@@ -103,8 +107,8 @@ sql-data-warehouse-project/
 │
 ├── README.md
 └── LICENSE
-```
 
+````
 ---
 
 ## 🛠️ Tools & Requirements
