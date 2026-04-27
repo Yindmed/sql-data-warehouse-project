@@ -4,6 +4,9 @@
 
 > An end-to-end data warehousing solution built with SQL Server, following the **Medallion Architecture** (Bronze → Silver → Gold). This project covers ETL pipeline design, data modeling with star schema, and SQL-based analytics — built from the ground up as a personal portfolio project.
 
+> Proyecto inspirado en el enfoque y buenas prácticas de Data With Baraa | Project inspired by the approach and best practices of Data With Baraa
+> www.youtube.com/@DataWithBaraa
+
 ---
 
 ## 📌 Project Description
