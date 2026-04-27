@@ -9,14 +9,15 @@
 ## 📌 Project Description
 
 > ES: Este proyecto demuestra cómo diseñar e implementar un Data Warehouse moderno desde cero, aplicando buenas prácticas de la industria en ingeniería de datos. Los datos en bruto provenientes de sistemas ERP y CRM son ingeridos, limpiados y modelados en una capa estructurada lista para análisis.
-This project demonstrates how to design and implement a modern **Data Warehouse from scratch**, applying industry best practices in data engineering. Raw data from ERP and CRM systems is ingested, cleaned, and modeled into a structured, analytics-ready layer.
+
+> This project demonstrates how to design and implement a modern **Data Warehouse from scratch**, applying industry best practices in data engineering. Raw data from ERP and CRM systems is ingested, cleaned, and modeled into a structured, analytics-ready layer.
 
 **What this project covers:**
-- End-to-end ETL pipeline from raw CSV files to analytical models
-- Medallion Architecture with three clearly defined data layers
-- Star schema design for optimized querying and reporting
-- SQL-based analytics and business reporting
-- Fully documented data flows, architecture, and naming conventions
+- Pipeline ETL completo desde archivos CSV hasta modelos analíticos | End-to-end ETL pipeline from raw CSV files to analytical models
+- Arquitectura Medallion con tres capas de datos claramente definidas | Medallion Architecture with three clearly defined data layers
+- Diseño de esquema estrella para consultas y reporting optimizados | Star schema design for optimized querying and reporting
+- Analítica basada en SQL y reporting de negocio | SQL-based analytics and business reporting
+- Flujos de datos, arquitectura y convenciones de nomenclatura completamente documentados | Fully documented data flows, architecture, and naming conventions
 
 ---
 
